@@ -70,7 +70,7 @@ test('check Date', () => {
 });
 
 test('check Date', () => {
-  expect(isDate('12021598')).toBe(false)
+  expect(isDate('1221598')).toBe(false)
 });
 
 test('check color', () => {
