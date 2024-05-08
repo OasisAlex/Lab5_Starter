@@ -10,11 +10,11 @@ import {
 
 // TODO - Part 2
 test('check phone number', () => {
-  expect(isPhoneNumber(9586235462)).toBe(true);
+  expect(isPhoneNumber(958-623-5462)).toBe(true);
 });
 
 test('check phone number', () => {
-  expect(isPhoneNumber(4568421568)).toBe(true);
+  expect(isPhoneNumber(456-842-1568)).toBe(true);
 });
 
 test('check phone number', () => {
