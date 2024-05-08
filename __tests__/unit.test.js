@@ -10,19 +10,19 @@ import {
 
 // TODO - Part 2
 test('check phone number', () => {
-  expect(isPhoneNumber(958-623-5462)).toBe(true);
+  expect(isPhoneNumber('958-623-5462')).toBe(true);
 });
 
 test('check phone number', () => {
-  expect(isPhoneNumber(456-842-1568)).toBe(true);
+  expect(isPhoneNumber('456-842-1568')).toBe(true);
 });
 
 test('check phone number', () => {
-  expect(isPhoneNumber(12345)).toBe(false);
+  expect(isPhoneNumber('123-45')).toBe(false);
 });
 
 test('check phone number', () => {
-  expect(isPhoneNumber(25684)).toBe(false);
+  expect(isPhoneNumber('256/845/2586')).toBe(false);
 });
 
 test('check if it is Email', () => {
